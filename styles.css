@@ -204,11 +204,17 @@ footer{
 }
 
 /*Small screen settings*/
-@media (max-width:600px){
+@media (max-width:912px){
   header{
     display: flex;
     flex-direction: column;
     padding-bottom: 1rem;
+  }
+
+  #welcome-section img{
+    max-width: 100%;
+    max-height: auto;
+    margin: 0 auto;
   }
 
   .emphasise{
